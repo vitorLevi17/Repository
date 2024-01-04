@@ -3,7 +3,6 @@ function validarCampos(){
     var senha = document.getElementById('editTextTextPassword')
         
         if (email == null || senha == null) {
-            window.alert("Insira as informações faltantes")
-            return false    
+            window.alert("Insira as informações faltantes")    
         }
 }
