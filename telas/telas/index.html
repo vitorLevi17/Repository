@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Login</title>
+    
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <img src="C:\Users\Vitor Levi\OneDrive\Documentos\Repository\Repository\telas\Ronaldoinalnassr.jpg" alt="Logo" style="width: 100px; height: 100px; margin-top: -50px;">
+        <h2>Login</h2>
+        <form>
+            <input type="email" id="editTextTextEmailAddress" placeholder="Email" required>
+            <br>
+            <input type="password" id="editTextTextPassword" placeholder="Senha" required>
+            <br>
+            <button type="button" id="button_login" onclick= "validarCampos()" >Login</button>
+            <br>
+            <span id="alerta_login" style="color: red;"></span>
+        </form>
+        <p>Não tem uma conta? <a href="#" id="bt_criar">Cadastre-se</a></p>
+    </div>
+
+    <script src = "login.js" ></script>
+</body>
+</html>
+
